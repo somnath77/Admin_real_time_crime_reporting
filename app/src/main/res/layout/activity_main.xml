@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:gravity="center"
+    android:id="@+id/parentRel"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Relative_Layout_buttons2">
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:id="@+id/viewReport_button"
+
+        android:text="View Reports"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:id="@+id/addPost_button"
+        android:text="Add Post"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/viewReport_button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Relative_Layout_buttons2"
+        android:id="@+id/Relative_Layout_buttons1">
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:id="@+id/viewPost_button"
+        android:text="View Posts"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:id="@+id/viewVehicles_button"
+        android:text="View Patrolling Vehicles"
+        android:textSize="18dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/viewPost_button"
+        android:layout_marginTop="20dp"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/Relative_Layout_buttons1"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/help_button"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Help"
+            android:textSize="18dp"
+            android:layout_marginLeft="80dp"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

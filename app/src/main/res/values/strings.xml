@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Admin_Rakshak</string>
+    <string name="title_activity_view_patrolling_vehicle">Map</string>
+    <string name="title_activity_view_in_map">Map</string>
+</resources>

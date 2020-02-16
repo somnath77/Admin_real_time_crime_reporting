@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "329118706216",
+    "firebase_url": "https://crimemonitoring-90d31.firebaseio.com",
+    "project_id": "crimemonitoring-90d31",
+    "storage_bucket": "crimemonitoring-90d31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329118706216:android:2739518b64a90851dc231d",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329118706216-vfhl4cisi7chopm4olln605idvali4fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin",
+            "certificate_hash": "0b64139578c46262b8af4899b178a33a3397c210"
+          }
+        },
+        {
+          "client_id": "329118706216-pocful8ofndokogkmb55u8g5qpr5mfrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJuab0XXvosU-rErX337FL7dH7RWEqN3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329118706216-pocful8ofndokogkmb55u8g5qpr5mfrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329118706216:android:d08addafeeb509e1dc231d",
+        "android_client_info": {
+          "package_name": "com.example.admin_rakshak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329118706216-55bdp9cv77bvk5ko5kahl5cdt1vu29ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin_rakshak",
+            "certificate_hash": "0b64139578c46262b8af4899b178a33a3397c210"
+          }
+        },
+        {
+          "client_id": "329118706216-pocful8ofndokogkmb55u8g5qpr5mfrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJuab0XXvosU-rErX337FL7dH7RWEqN3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329118706216-pocful8ofndokogkmb55u8g5qpr5mfrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329118706216:android:88cf04aa9a7c0742dc231d",
+        "android_client_info": {
+          "package_name": "com.example.reliance.real_time_crime_monitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329118706216-4setmait3eu2pbh96l0htimingee28ra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reliance.real_time_crime_monitoring",
+            "certificate_hash": "3dc361822440cee39bdff101c0181b7e349d2ed3"
+          }
+        },
+        {
+          "client_id": "329118706216-pocful8ofndokogkmb55u8g5qpr5mfrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJuab0XXvosU-rErX337FL7dH7RWEqN3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329118706216-pocful8ofndokogkmb55u8g5qpr5mfrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

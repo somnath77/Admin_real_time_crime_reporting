@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/Relative_Layout"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    tools:context=".viewInMap" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/parent_relative"
+        android:layout_below="@+id/map"
+        android:background="@color/colorPrimary"
+
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_setDesc"
+        android:layout_margin="3dp"
+        android:hint="Description Goes Here.."
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+
+        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            
+            >
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/button_redirect"
+        android:textSize="17dp"
+        android:text="Redirect"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/button_makePublic"
+            android:textSize="18dp"
+            android:text="Make Public"
+            android:background="#F5AF49"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@+id/button_redirect"
+
+            />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
