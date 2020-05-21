@@ -5,4 +5,4 @@
   
   Below are some of the screenshots: 
   
-  ![](snap6.jpg)
+  ![](/snap6.JPG)
